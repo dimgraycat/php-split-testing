@@ -1,0 +1,34 @@
+{
+  "name": "dimgraycat/SplitTesting",
+  "description": "A server-side A/B/n testing tool",
+  "keywords": ["optimizely", "ab", "split", "testing"],
+  "homepage": "http://github.com/dimgraycat/php-split-testing",
+  "license": "MIT",
+  "authors":[
+    {
+      "name": "dimgraycat",
+      "email": "dimgray.cat@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "SplitTesting\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SplitTesting\\Test\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
