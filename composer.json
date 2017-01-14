@@ -1,5 +1,5 @@
 {
-  "name": "dimgraycat/SplitTesting",
+  "name": "dimgraycat/split-testing",
   "description": "A server-side A/B/n testing tool",
   "keywords": ["optimizely", "ab", "split", "testing"],
   "homepage": "http://github.com/dimgraycat/php-split-testing",
