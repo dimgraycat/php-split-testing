@@ -1,6 +1,7 @@
 <?php
 
-use Ab\Tests;
+namespace Ab\Tests;
+
 use Ab\SplitTesting;
 
 class SplitTestingTest extends PHPUnit_Framework_TestCase {
