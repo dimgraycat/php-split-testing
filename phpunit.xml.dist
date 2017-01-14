@@ -12,6 +12,6 @@
     syntaxCheck="true"
     >
     <testsuite name="splitTesting">
-        <directory phpVersion="5.3" suffix=".php">./tests/</directory>
+        <directory phpVersion="5.3.29" suffix=".php">./tests/</directory>
     </testsuite>
 </phpunit>
