@@ -24,7 +24,7 @@ class Rate extends PluginBase {
      *      ],
      * ];
      */
-    public static function calculate(array $variation) {
+    public static function calculate(array $variation, $seed = null) {
         $key = self::getKey($variation['rate']);
         return $variation['list'][$key];
     }
