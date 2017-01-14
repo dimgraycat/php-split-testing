@@ -4,7 +4,7 @@ namespace Ab\Tests;
 
 use Ab\SplitTesting;
 
-class SplitTestingTest extends PHPUnit_Framework_TestCase {
+class SplitTestingTest extends \PHPUnit_Framework_TestCase {
 
     public function testRandam() {
         $params = array(
