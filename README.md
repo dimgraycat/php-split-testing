@@ -2,7 +2,7 @@
 [![Latest Stable Version](https://img.shields.io/packagist/v/dimgraycat/phpirkit.svg?style=flat-square)](https://packagist.org/packages/dimgraycat/split-testing)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.3-8892BF.svg?style=flat-square)](https://php.net/)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)](https://travis-ci.org/dimgraycat/php-split-testing)
-[![Tests](https://php-eye.com/badge/dimgraycat/split-testing/tested.svg?style=flat-square)](https://php-eye.com/package/dimgraycat/split-testing)
+[![Tested](https://img.shields.io/badge/HHVM%20%7C%20PHP%207.1%20%7C%20PHP%207.0%20%7C%20PHP%205.6%20%7C%20PHP%205.5%20%7C%20PHP%205.4%20%7C%20PHP%205.3-Tested-green.svg?style=flat-square)](https://php-eye.com/package/dimgraycat/split-testing)
 
 # SplitTesting
 A server-side A/B/n testing tool
