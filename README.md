@@ -17,9 +17,9 @@ $ composer require dimgraycat/split-testing
 ```
 ```json
 {
-    "require": {
-        "dimgraycat/split-testing": "1.0.*"
-    }
+  "require": {
+    "dimgraycat/split-testing": "^1.0"
+  }
 }
 ```
 
@@ -60,21 +60,21 @@ echo SplitTesting::get($params, $seed);
 use Ab\SplitTesting;
 
 $params = array(
-	'use'       => 'rate',
-	'variation' => array(
-		'rate'  => array(
-          	// 1 => 0.1%, 50 => 5%, 500 => 50%, 1000 => 100%
-			'foo' => 50,
-			'bar' => 20,
-			'baz' => 500,
-		),
-		'list'  => array(
-			'default'   => array('hoge'),
-			'a'         => '5%',
-			'hoge'      => 1234567890,
-			'moge'      => '123456789',
-		),
-	),
+    'use'       => 'rate',
+    'variation' => array(
+        'rate'  => array(
+            // 1 => 0.1%, 50 => 5%, 500 => 50%, 1000 => 100%
+            'foo' => 50,
+            'bar' => 20,
+            'baz' => 500,
+        ),
+        'list'  => array(
+            'default'   => array('hoge'),
+            'a'         => '5%',
+            'hoge'      => 1234567890,
+            'moge'      => '123456789',
+        ),
+    ),
 );
 echo SplitTesting::get($params);
 ```
@@ -85,18 +85,18 @@ echo SplitTesting::get($params);
 use Ab\SplitTesting;
 
 $params = array(
-	'use'       => 'pattern',
-	'variation' => array(
-		'pattern'   => array(
-			'foo' => '/[0-9]$/',
-			'bar' => '/z$/',
-		),
-		'list'      => array(
-			'default'	=> 'default',
-			'foo'       => 'hit 1!',
-			'bar'       => 'hit 2!'
-		),
-	),
+    'use'       => 'pattern',
+    'variation' => array(
+        'pattern'   => array(
+            'foo' => '/[0-9]$/',
+            'bar' => '/z$/',
+        ),
+        'list'      => array(
+            'default'    => 'default',
+            'foo'       => 'hit 1!',
+            'bar'       => 'hit 2!'
+        ),
+    ),
 );
 
 $seed = 1234; // required
