@@ -1,6 +1,7 @@
 [![License](https://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://github.com/dimgraycat/php-split-testing/blob/master/LICENSE)
 [![Latest Stable Version](https://img.shields.io/packagist/v/dimgraycat/phpirkit.svg?style=flat-square)](https://packagist.org/packages/dimgraycat/split-testing)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.3-8892BF.svg?style=flat-square)](https://php.net/)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a842ef33eadd4899a043a9fdc270ee93)](https://www.codacy.com/app/dimgraycat/php-split-testing?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dimgraycat/php-split-testing&amp;utm_campaign=Badge_Grade)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)](https://travis-ci.org/dimgraycat/php-split-testing)
 [![Tested](https://img.shields.io/badge/PHP%207.1%20%7C%20PHP%207.0%20%7C%20PHP%205.6%20%7C%20PHP%205.5%20%7C%20PHP%205.4%20%7C%20PHP%205.3-Tested-green.svg?style=flat-square)](https://php-eye.com/package/dimgraycat/split-testing)
 
