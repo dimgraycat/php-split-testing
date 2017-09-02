@@ -4,9 +4,10 @@ namespace Ab\Tests;
 
 use Ab\SplitTesting;
 
-class SplitTestingTest extends \PHPUnit_Framework_TestCase {
-
-    public function testRandam() {
+class SplitTestingTest extends \PHPUnit_Framework_TestCase
+{
+    public function testRandam()
+    {
         $params = array(
             'use'       => 'random',
             'variation' => array(
@@ -22,7 +23,8 @@ class SplitTestingTest extends \PHPUnit_Framework_TestCase {
         $this->assertTrue($bool);
     }
 
-    public function testRate() {
+    public function testRate()
+    {
         $params = array(
             'use'       => 'rate',
             'variation' => array(
@@ -45,7 +47,8 @@ class SplitTestingTest extends \PHPUnit_Framework_TestCase {
         $this->assertTrue($bool);
     }
 
-    public function testPattern() {
+    public function testPattern()
+    {
         $params = array(
             'use'       => 'pattern',
             'variation' => array(
