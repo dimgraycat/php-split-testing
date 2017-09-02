@@ -3,7 +3,8 @@ namespace Ab\SplitTesting;
 
 use Ab\SplitTesting\PluginBase;
 
-class Random extends PluginBase {
+class Random extends PluginBase
+{
 
     /**
      * e.g.) $variation = [
@@ -12,9 +13,16 @@ class Random extends PluginBase {
      *      mixed,
      *      ...
      * ];
+     *
+     * @param  mixed      $variation
+     * @param  int|string $seed
+     * @return mixed
      */
-    public static function calculate(array $variation, $seed = null) {
-        if (!$seed) $seed = self::getSeed();
+    public static function calculate(array $variation, $seed = null)
+    {
+        if (!$seed) {
+            $seed = self::getSeed();
+        }
         mt_srand($seed);
         $count = count($variation) - 1;
         $idx = mt_rand(0, $count);

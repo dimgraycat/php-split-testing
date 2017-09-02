@@ -18,7 +18,7 @@ $ composer require dimgraycat/split-testing
 ```json
 {
     "require": {
-        "dimgraycat/split-testing": "1.0.*"
+        "dimgraycat/split-testing": "^1.0"
     }
 }
 ```
