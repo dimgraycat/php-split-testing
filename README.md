@@ -3,7 +3,7 @@
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.3-8892BF.svg?style=flat-square)](https://php.net/)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a842ef33eadd4899a043a9fdc270ee93)](https://www.codacy.com/app/dimgraycat/php-split-testing?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dimgraycat/php-split-testing&amp;utm_campaign=Badge_Grade)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)](https://travis-ci.org/dimgraycat/php-split-testing)
-[![Tested](https://img.shields.io/badge/PHP%207.1%20%7C%20PHP%207.0%20%7C%20PHP%205.6%20%7C%20PHP%205.5%20%7C%20PHP%205.4%20%7C%20PHP%205.3-Tested-green.svg?style=flat-square)](https://php-eye.com/package/dimgraycat/split-testing)
+[![Tested](https://img.shields.io/badge/PHP%207.3%20~%20PHP%205.3-Tested-green.svg?style=flat-square)](https://php-eye.com/package/dimgraycat/split-testing)
 
 # SplitTesting
 A server-side A/B/n testing tool
@@ -39,7 +39,7 @@ $ php composer.phar install
 use Ab\SplitTesting;
 
 $params = array(
-	'use'		=> 'random',
+	'use' => 'random',
     'variation' => array(
         'foo',
         'bar',
