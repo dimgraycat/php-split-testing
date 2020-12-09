@@ -2,9 +2,10 @@
 
 namespace Ab\Tests;
 
+use PHPUnit\Framework\TestCase;
 use Ab\SplitTesting;
 
-class SplitTestingTest extends \PHPUnit_Framework_TestCase
+class SplitTestingTest extends TestCase
 {
     public function testRandam()
     {
