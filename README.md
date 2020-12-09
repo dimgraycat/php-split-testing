@@ -39,7 +39,7 @@ $ php composer.phar install
 use Ab\SplitTesting;
 
 $params = array(
-	'use' => 'random',
+    'use' => 'random',
     'variation' => array(
         'foo',
         'bar',
