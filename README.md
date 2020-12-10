@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://github.com/dimgraycat/php-split-testing/blob/master/LICENSE)
 [![Latest Stable Version](https://img.shields.io/packagist/v/dimgraycat/split-testing.svg?style=flat-square)](https://packagist.org/packages/dimgraycat/split-testing)
-[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.3-8892BF.svg?style=flat-square)](https://php.net/)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg?style=flat-square)](https://php.net/)
 [![Travis](https://api.travis-ci.org/dimgraycat/php-split-testing.svg?branch=1.0.x-dev&status=canceled)](https://travis-ci.org/dimgraycat/php-split-testing)
 
 # SplitTesting
