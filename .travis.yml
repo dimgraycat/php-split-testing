@@ -1,7 +1,7 @@
 ---
 language: php
 
-dist: precise
+dist: xenial
 
 php:
   - '5.3'
@@ -18,10 +18,10 @@ before_script:
   - composer install --no-interaction --dev
 
 script:
-  - vendor/bin/phpunit --coverage-clover=coverage.xml
+  - bin/phpunit --coverage-clover=coverage.xml
 
 after_success:
-  - php vendor/bin/codacycoverage clover coverage.xml
+  - php bin/codacycoverage clover coverage.xml
 
 notifications:
   email: false
