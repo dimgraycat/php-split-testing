@@ -4,7 +4,6 @@ namespace Ab;
 /**
  * A server-side A/B/n testing tool
  *
- * @version   1.0.1
  * @access    public
  * @author    dimgraycat <dimgray.cat@gmail.com>
  * @copyright 2017 dimgraycat All Rights Reserved
